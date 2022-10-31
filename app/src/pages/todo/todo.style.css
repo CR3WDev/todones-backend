@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   background: #25112d;
-  height: calc(100vh - 250px);
+  height: calc(100vh - 200px);
   overflow: hidden;
   overflow-y: auto;
 }
