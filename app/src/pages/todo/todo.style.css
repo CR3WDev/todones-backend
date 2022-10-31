@@ -1,0 +1,48 @@
+.content-box {
+  color: #cacde8;
+  display: flex;
+  justify-content: center;
+  background: #25112d;
+  height: calc(100vh - 250px);
+  overflow: hidden;
+  overflow-y: auto;
+}
+.box {
+  width: 60vw;
+  left: 20vw;
+  border: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #25273c;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.box p {
+  margin: auto 0;
+}
+.btn-del {
+  border: none;
+  background: none;
+}
+.clear_all {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.clear_all button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  background: red;
+}
+.xx {
+  display: flex;
+}
+.xx input {
+  margin-right: 10px;
+}
+.task_done {
+  text-decoration-line: line-through;
+}
